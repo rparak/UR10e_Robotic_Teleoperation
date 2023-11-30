@@ -126,7 +126,7 @@ Roman.Parak@outlook.com
 @misc{RomanParak_UR10e_Robotic_Teleoperation,
   author = {Roman Parak},
   title = {Human-robot interaction system for robotic teleoperation},
-  year = {2021},
+  year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {\url{https://https://github.com/rparak/UR10e_Robotic_Teleoperation
