@@ -26,17 +26,17 @@ Windows
 
 A human-robot interaction system for robotic teleoperation based on the P5 Essential Reality robotic glove to control the UR10e collaborative robot. The project was created primarily for Children's University as an explanation of how humans can work with robots without boundaries. The project included data analysis, signal processing, robot control, etc.
 
-<p align="center">
-<img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/scheme.png width="800" height="450">
-</p>
-
 The project architecture was created based on publisher/subscriber communication between two Python programs. One of the programs was based on the 32-bit version, and the other one on the 64-bit version. The main reason for this solution was that the '*.dll' file was created based on the 32-bit version, and the universal robot control library can only be installed on a 64-bit version of Python. Communication between Python programs is realized through the ZMQ library.
-
-The solution can be used to control a real robot or to simulate one (using VMware <-> UR Polyscope on Windows).
 
 **Warning!**
 
 It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
+
+<p align="center">
+<img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/scheme.png width="800" height="450">
+</p>
+
+The solution can be used to control a real robot or to simulate one (using VMware <-> UR Polyscope on Windows).
 
 **Essential Reality P5 Glove:**
  - The P5 virtual reality gloves are data gloves suitable for gaming and 3D virtual environments. 
