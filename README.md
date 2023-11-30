@@ -47,6 +47,13 @@ The project was realized at the Institute of Robotics, Johannes Kepler Universit
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_Robot.svg width="800" height="450">
 </p>
 
+## Real-World Application
+
+<p align="center">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Real_World/Setup.JPG width="575" height="400">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Real_World/Env_1.JPG width="575" height="400">
+</p>
+
 ## Children's University
 
 <p align="center">
