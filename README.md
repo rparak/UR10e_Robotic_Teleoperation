@@ -30,6 +30,8 @@ A human-robot interaction system for robotic teleoperation based on the P5 Essen
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/scheme.png width="700" height="400">
 </p>
 
+This solution can be used to control a real robot or to simulate one (using VMware <-> UR Polyscope on Windows).
+
 **Warning!**
 
 It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
