@@ -34,14 +34,14 @@ The project was realized at the Institute of Robotics, Johannes Kepler Universit
 
 
 <p align="center">
-<img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Background.png width="800" height="450">
+<img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_Robot.svg width="800" height="450">
 </p>
 
 ## YouTube
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=FrP-bRYXE3I">
-    <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_Robot.svg width="275" height="200">
+    <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/YouTube.png width="275" height="200">
   </a>
 </p>
 
