@@ -64,7 +64,7 @@ Text ....
 ## Simulation
 
 <p align="center">
- <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Simulation/Simulation_UR.png width="575" height="400">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Simulation/Simulation_UR.png width="800" height="450">
 </p>
 
 ## Real-World Application
