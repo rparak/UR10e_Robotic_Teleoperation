@@ -25,6 +25,7 @@ Windows
 ## Project Description
 
 **Warning!**
+
 It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
 
 The project was realized at the Institute of Robotics, Johannes Kepler University in Linz as part of an Erasmus+ research internship.
