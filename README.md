@@ -27,3 +27,30 @@ Windows
 The project was realized at the Institute of Robotics, Johannes Kepler University in Linz as part of an Erasmus+ research internship.
 
 A human-robot interaction system for robotic teleoperation based on the P5 Essential Reality robotic glove to control the UR10e collaborative robot. The project was created primarily for Children's University as an explanation of how humans can work with robots without boundaries. The project included data analysis, signal processing, robot control, etc.
+
+## YouTube
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=FrP-bRYXE3I">
+    <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/YouTube.png width="275" height="200">
+  </a>
+</p>
+
+## Contact Info
+Roman.Parak@outlook.com
+
+## Citation (BibTex)
+```bash
+@misc{RomanParak_UR10e_Robotic_Teleoperation,
+  author = {Roman Parak},
+  title = {Human-robot interaction system for robotic teleoperation},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://https://github.com/rparak/UR10e_Robotic_Teleoperation
+}}
+}
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
