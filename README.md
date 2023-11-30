@@ -43,8 +43,28 @@ The project was realized at the Institute of Robotics, Johannes Kepler Universit
 
 ## Data Evaluation
 
+Text ....
+
+<p align="center">
+<img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_P5_Position.svg width="800" height="450">
+</p>
+
+Text ....
+
+<p align="center">
+<img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_P5_Finger_Bends.svg width="800" height="450">
+</p>
+
+Text ....
+
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_Robot.svg width="800" height="450">
+</p>
+
+## Simulation
+
+<p align="center">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Simulation/Simulation_UR.png width="575" height="400">
 </p>
 
 ## Real-World Application
