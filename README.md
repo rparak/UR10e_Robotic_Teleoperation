@@ -1,3 +1,3 @@
-# Essential_Reality_P5_Glove
+# Human-Robot Interaction System for Robotic Teleoperation
 
 The project was realized at the Institute of Robotics, Johannes Kepler University in Linz as part of an Erasmus+ research internship.
