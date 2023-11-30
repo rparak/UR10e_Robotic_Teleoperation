@@ -26,6 +26,14 @@ Windows
 
 A human-robot interaction system for robotic teleoperation based on the P5 Essential Reality robotic glove to control the UR10e collaborative robot. The project was created primarily for Children's University as an explanation of how humans can work with robots without boundaries. The project included data analysis, signal processing, robot control, etc.
 
+**Essential Reality P5 Glove:**
+ - The P5 virtual reality gloves are data gloves suitable for gaming and 3D virtual environments. 
+ - The gloves contain two infrared sensors. They detect the visible LEDs on the glove (there are eight in total) and convert them to the position (x, y, z) and orientation in terms of pitch, yaw and roll. The glove also has bend sensors in the fingers and four buttons on the top. 
+ - Communication between the gloves and the application on the computer is via USB port.
+
+More information about signal processing filters, such as SMA (Simple Moving Average), BLP (Butterworth Low Pass), and BLPMA (Butterworth Low Pass Moving Average), can be found in the repository below:
+[/rparak/Simple_Signal_Processing](https://github.com/rparak/Simple_Signal_Processing)
+
 **Warning!**
 
 It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
