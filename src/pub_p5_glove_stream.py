@@ -131,7 +131,7 @@ def main():
 
         # Thread initialization:
         #   Main Control:
-        #       target=Main_Control, args=(ABB_EGM_Ctrl, P5_G, )
+        #       target=Main_Control, args=(P5_G, )
         
         # Start Control: Thread
         ctrl_m = threading.Thread(target=Main_Control, args=(P5_G, ), daemon=True)

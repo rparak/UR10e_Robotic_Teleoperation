@@ -39,10 +39,6 @@ import Lib.P5.Essential_Reality as Essential_Reality
 import Lib.Utils as Utils
 
 # Initialization of Constants:
-#   ABB Robot (IRB 1200)
-CONST_ABB_WORKSPACE          = [360.0,360.0,360.0]
-CONST_ABB_CARTES_POS_HOME    = [450.0,0.0,500.0]
-CONST_ABB_CARTES_ORIENT_HOME = [0.0,0.0,1.0,0.0]
 #   Universal Robots (UR10e)
 CONST_UR_WORKSPACE          = [350.0, 350.0, 350.0]
 CONST_UR_CARTES_POS_HOME    = [-200.0, -600.0, 350.0]
@@ -53,7 +49,6 @@ CONST_ROBOT_CARTES_POS_HOME    = CONST_UR_CARTES_POS_HOME
 CONST_ROBOT_CARTES_ORIENT_HOME = CONST_UR_CARTES_ORIENT_HOME
 #   Essential Reality P5 Glove
 CONST_SENSOR_POS_WORKSPACE  = Essential_Reality.CONST_FILTER_POS_LIMIT
-# ABB: 1,0,2; UR: 0,1,2
 CONST_SENSOR_POS_OFFSET     = [np.sum(CONST_SENSOR_POS_WORKSPACE[0])/2, 
                                np.sum(CONST_SENSOR_POS_WORKSPACE[1])/2, 
                                np.sum(CONST_SENSOR_POS_WORKSPACE[2])/2]
@@ -97,7 +92,6 @@ def Test_Stream_T2(P5_cls):
 
         if SED_Move.Get_Value(P5_cls.Get_Buttons_Value_ID(0)) == True:
             # Robot moves depending on the input parameters
-            # ABB: 2,0,1; UR: 0,2,1
             sensor_position = [(P5_cls.Get_Filtered_Absolute_Position_ID(0) + CONST_SENSOR_POS_OFFSET[0]) * CONST_SENSOR_FACTOR, 
                                (P5_cls.Get_Filtered_Absolute_Position_ID(2) + CONST_SENSOR_POS_OFFSET[1]) * CONST_SENSOR_FACTOR, 
                                (P5_cls.Get_Filtered_Absolute_Position_ID(1) + CONST_SENSOR_POS_OFFSET[2]) * CONST_SENSOR_FACTOR]
