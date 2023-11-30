@@ -30,6 +30,10 @@ A human-robot interaction system for robotic teleoperation based on the P5 Essen
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/scheme.png width="700" height="400">
 </p>
 
+**Warning!**
+
+It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
+
 **Essential Reality P5 Glove:**
  - The P5 virtual reality gloves are data gloves suitable for gaming and 3D virtual environments. 
  - The gloves contain two infrared sensors. They detect the visible LEDs on the glove (there are eight in total) and convert them to the position (x, y, z) and orientation in terms of pitch, yaw and roll. The glove also has bend sensors in the fingers and four buttons on the top. 
@@ -37,10 +41,6 @@ A human-robot interaction system for robotic teleoperation based on the P5 Essen
 
 More information about signal processing filters, such as SMA (Simple Moving Average), BLP (Butterworth Low Pass), and BLPMA (Butterworth Low Pass Moving Average), can be found in the repository below:
 [/rparak/Simple_Signal_Processing](https://github.com/rparak/Simple_Signal_Processing)
-
-**Warning!**
-
-It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
 
 The project was realized at the Institute of Robotics, Johannes Kepler University in Linz as part of an Erasmus+ research internship.
 
