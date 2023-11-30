@@ -31,6 +31,8 @@ import sys
 import pandas as pd
 # Matplotlib (Visualization) [pip3 install matplotlib]
 import matplotlib.pyplot as plt
+# SciencePlots (Matplotlib styles for scientific plotting) [pip3 install SciencePlots]
+import scienceplots
 # OS (Operating system interfaces)
 import os
 
@@ -72,18 +74,20 @@ def main():
 
     ax_vector = [0]*len(data_actual)
 
+    # Set the parameters for the scientific style.
+    plt.style.use(['science'])
+
     # Create figure with multiple subplots
     fig, (ax_vector) = plt.subplots(len(ax_vector), 1)
-    fig.suptitle(f'File name: {file_name}.txt', fontsize = 20)
 
     for i, ax in enumerate(ax_vector):
         ax.plot(sequence, data_actual[i], '-', linewidth=1.0, color=[0.2,0.4,0.6,0.50], label='Raw Data')
         ax.plot(sequence, data_filtered_1[i], '-', linewidth=1.0, color=[1.0,0.85,0.75,1.0], label='Filtered Data: SMA')
         ax.plot(sequence, data_filtered_2[i], '-', linewidth=1.0, color=[1.0,0.75,0.5,1.0], label='Filtered Data: BLP')
         ax.plot(sequence, data_filtered_3[i], '-', linewidth=1.0, color=[0.8,0.4,0.0,1.0], label='Filtered Data: BLPMA')
-        ax.grid(linewidth = 0.75, linestyle = '--')
-        ax.set_xlabel(r'Sequence (-)')
-        ax.set_ylabel(f'{AXIS_NAME[i]}')
+        ax.grid(which='major', linewidth = 0.15, linestyle = '--')
+        ax.set_xlabel(r'Sequence (-)', fontsize=15, labelpad=10)
+        ax.set_ylabel(f'{AXIS_NAME[i]}', fontsize=15, labelpad=10)
         ax.legend()
 
     # Display the result
