@@ -50,8 +50,8 @@ The project was realized at the Institute of Robotics, Johannes Kepler Universit
 ## Children's University
 
 <p align="center">
- <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/DOD/DOD_1.JPG width="800" height="450">
- <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/DOD/DOD_2.JPG width="800" height="450">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/DOD/DOD_1.JPG width="600" height="450">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/DOD/DOD_2.JPG width="600" height="450">
 </p>
 
 ## YouTube
