@@ -41,8 +41,17 @@ It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW
 The project was realized at the Institute of Robotics, Johannes Kepler University in Linz as part of an Erasmus+ research internship.
 
 
+## Data Evaluation
+
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_Robot.svg width="800" height="450">
+</p>
+
+## Children's University
+
+<p align="center">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/DOD/DOD_1.JPG width="800" height="450">
+ <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/DOD/DOD_2.JPG width="800" height="450">
 </p>
 
 ## YouTube
