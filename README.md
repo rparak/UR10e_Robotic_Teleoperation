@@ -46,6 +46,28 @@ More information about signal processing filters, such as SMA (Simple Moving Ave
 
 The project was realized at the Institute of Robotics, Johannes Kepler University in Linz as part of an Erasmus+ research internship.
 
+## Project Hierarchy
+
+**../DLL/**
+
+A dynamic-link library (DLL) designed by the company that created the 'P5 Essential Reality' robotic glove to collect data using various programming languages.
+
+**../src/Lib/**
+
+The main part of the project, which includes the library to collect the data from the robotic gloves, a library for signal processing, and other useful utilities.
+
+**../src/Evaluation/**
+
+Programs to evaluate the collected data from the robotic gloves as well as from the collaborative robot
+
+**../src/UR/**
+
+A simple program to evaluate the safe area of the robot workspace.
+
+**../src/**
+
+Main programs (scripts) for data collection and robot control.
+
 ## Data Evaluation
 
 The figure below shows the collection of position data (x, y, z) from the gloves and the use of different types of designed filters to filter the raw data.
