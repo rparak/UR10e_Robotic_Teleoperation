@@ -1,4 +1,4 @@
-# Human-Robot Interaction System for Robotic Teleoperation
+# Robotic Teleoperation Based on the P5 Essential Reality Robotic Gloves
 
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Background.png width="800" height="450">
