@@ -48,19 +48,19 @@ The project was realized at the Institute of Robotics, Johannes Kepler Universit
 
 ## Data Evaluation
 
-Text ....
+The figure below shows the collection of position data (x, y, z) from the gloves and the use of different types of designed filters to filter the raw data.
 
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_P5_Position.svg width="800" height="450">
 </p>
 
-Text ....
+The figure below shows the collection of finger bends data (T, I, M, R, L) from the gloves and the use of different types of designed filters to filter the raw data.
 
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_P5_Finger_Bends.svg width="800" height="450">
 </p>
 
-Text ....
+The figure below illustrates the position control of the collaborative robot, depending on the filtered data from the robotic gloves.
 
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/Data_Evaluation/Figure_1_Robot.svg width="800" height="450">
