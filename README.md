@@ -30,7 +30,9 @@ A human-robot interaction system for robotic teleoperation based on the P5 Essen
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/scheme.png width="800" height="450">
 </p>
 
-This solution can be used to control a real robot or to simulate one (using VMware <-> UR Polyscope on Windows).
+The project architecture was created based on publisher/subscriber communication between two Python programs. One of the programs was based on the 32-bit version, and the other one on the 64-bit version. The main reason for this solution was that the '*.dll' file was created based on the 32-bit version, and the universal robot control library can only be installed on a 64-bit version of Python. Communication between Python programs is realized through the ZMQ library.
+
+The solution can be used to control a real robot or to simulate one (using VMware <-> UR Polyscope on Windows).
 
 **Warning!**
 
