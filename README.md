@@ -30,7 +30,7 @@ The project architecture was created based on publisher/subscriber communication
 
 **Warning!**
 
-It is necessary to copy and paste the P5DLL.dll file into the 'C:\Windows\SysWOW64' directory.
+It is necessary to copy and paste the 'P5DLL.dll' file into the 'C:\Windows\SysWOW64' directory.
 
 <p align="center">
 <img src=https://github.com/rparak/UR10e_Robotic_Teleoperation/blob/main/images/scheme.png width="800" height="450">
