@@ -50,25 +50,28 @@ The project was realized at the Institute of Robotics, Johannes Kepler Universit
 
 ## Project Hierarchy
 
-**../DLL/**
+```bash
+[../DLL/]
+Description:
+  A dynamic-link library (DLL) designed by the company that created the 'P5 Essential Reality' robotic glove to collect data using various programming languages.
 
-A dynamic-link library (DLL) designed by the company that created the 'P5 Essential Reality' robotic glove to collect data using various programming languages.
+[../src/Lib/]
+Description:
+  The main part of the project, which includes the library to collect the data from the robotic gloves, a library for signal processing, and other useful utilities.
 
-**../src/Lib/**
+[../src/Evaluation/]
+Description:
+  Programs to evaluate the collected data from the robotic gloves as well as from the collaborative robot
 
-The main part of the project, which includes the library to collect the data from the robotic gloves, a library for signal processing, and other useful utilities.
+[../src/UR/]
+Description:
+  A simple program to evaluate the safe area of the robot workspace
 
-**../src/Evaluation/**
+[../src/]
+Description:
+  Main programs (scripts) for data collection and robot control.
 
-Programs to evaluate the collected data from the robotic gloves as well as from the collaborative robot
-
-**../src/UR/**
-
-A simple program to evaluate the safe area of the robot workspace.
-
-**../src/**
-
-Main programs (scripts) for data collection and robot control.
+```
 
 ## Data Evaluation
 
